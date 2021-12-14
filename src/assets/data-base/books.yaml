@@ -1,0 +1,74 @@
+books:
+
+  - title:  Data Engineering with Python
+    subtitle: Work with massive datasets to design data models and automate data pipelines using Python
+    image: data-engineering-whith-python.jfif
+    autors: ["Paul Crickard"]
+    year: 2020
+    pages: 270
+    tags: ["Spark", "Airflow", "Kafka", "NiFi", "Python", "ElasticSearch", "Kibana"] 
+    brief-title: Step-by-Step
+    comment: Guia de passo-a-passo par ainstalar, usar e criar um projeto. Tem muitas imagens
+
+  - title: Data Pipelines Pocket Reference
+    subtitle: Moving and Processing Data for Analytics
+    image: data-pipelines-pocket-reference.jpg
+    autors: ["James Densmore"]
+    year: 2021
+    pages: 302
+    tags: ["Airflow", "Theoric"] 
+    brief-title: Pokect Reference
+    comment: Livro mais teórico. Tem poucas imagens
+
+  - title: Official Google Cloud Certified Professional Data Engineer 
+    subtitle: Study Guide
+    image: google-professional-data-engineer.jpg
+    autors: ["Dan Sullivan"]
+    year: 2020
+    pages: 341
+    tags: ["GCP", "Certified GCP"] 
+    brief-title: Há questionários para praticar para a prova
+    comment: Chato, pois trabalha com o GCp, mas necessário para passar na prova e ter um conhecimento completo sobre o GCP/Cloud
+
+ - title: Learning Spark
+    subtitle: Lightning-Fast Data Analytics
+    image: learning-spark.jpg
+    autors: ["OLAHR MELHOR CADA ITEM"]
+    year: 2020
+    pages: 399
+    tags: ["Spark"] 
+    brief-title: Há questionários para praticar para a prova
+    comment: OReily
+
+ - title: Data Pipeline with Apache Airflow
+    subtitle: Lightning-Fast Data Analytics
+    image: data-pipelines-with-apache-airflow.jpg
+    autors: ["Bas Harenslak", "Julian de Ruiter"]
+    year: 2020
+    pages: 399
+    tags: ["Airflow"] 
+    brief-title: Há questionários para praticar para a prova
+    comment: OReily
+
+ - title: Python Data Cleaning Cookbook
+    subtitle: Lightning-Fast Data Analytics Python Data Cleaning CookbookPython Data Cleaning CookbookPython Data Cleaning Cookbook
+    image: python-data-cleaning-cookbook.jpg
+    autors: ["Bas Harenslak", "Julian de Ruiter"]
+    year: 2020
+    pages: 399
+    tags: ["Airflow"] 
+    brief-title: Há questionários para praticar para a prova
+    comment: OReily
+
+ - title: Machine Learning Engineering
+    subtitle: 
+    image: machine-learning-engineering.jpg
+    autors: ["Machine Learning Engineering"]
+    year: 2020
+    pages: 310
+    tags: ["Machine Learning Engineering"] 
+    brief-title: Há questionários para praticar para a prova
+    comment: OReily
+
+
+
