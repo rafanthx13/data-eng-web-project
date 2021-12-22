@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Usar lint
+
+Funciona
+$ eslint --fix  --ext .js,.vue src
+
