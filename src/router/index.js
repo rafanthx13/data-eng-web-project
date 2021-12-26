@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../pages/Home.vue";
 import DataEngineeringListing from "../pages/DataEngineeringListing.vue";
+import DataEngRecomender from "../pages/DataEngRecomender.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/data-engineering-listing",
     name: "DataEngineeringListing",
     component: DataEngineeringListing,
+  },
+  {
+    path: "/data-eng-recomender",
+    name: "DataEngRecomender",
+    component: DataEngRecomender,
   },
 ];
 

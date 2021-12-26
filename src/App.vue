@@ -17,6 +17,9 @@
           <router-link to="/data-engineering-listing"
             >Data Engineering Book Listing</router-link
           >
+          <router-link to="/data-eng-recomender"
+            >Data Engineering Book Listing</router-link
+          >
         </div>
       </va-navbar-item>
     </template>
