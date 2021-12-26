@@ -1,3 +1,5 @@
+$vaToast.init({ message: 'primary color', color: 'primary' })
+
 # Vuestic.README
 
 row
