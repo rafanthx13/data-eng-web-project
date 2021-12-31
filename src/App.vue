@@ -3,11 +3,7 @@
   <va-navbar color="primary" shape class="mb-0">
     <template #left>
       <va-navbar-item>
-        <img
-          src="./assets/my-logo.png"
-          alt=""
-          style="width: 20px; height: 20px"
-        />
+        <img src="./assets/my-logo.png" alt="" style="width: 20px; height: 20px" />
       </va-navbar-item>
     </template>
     <template #center>
@@ -15,7 +11,8 @@
         <div id="nav">
           <router-link to="/">Home</router-link> |
           <router-link to="/book-listing"> Book Listing</router-link> |
-          <router-link to="/video-recomender">Video Recomender</router-link>
+          <router-link to="/video-recomender">Video Recomender</router-link> |
+          <router-link to="/jobs-dashboard">Jobs DashBoard</router-link>
         </div>
       </va-navbar-item>
     </template>
@@ -30,7 +27,7 @@
 
 <style>
 #app {
-  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+  font-family: 'DM Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
