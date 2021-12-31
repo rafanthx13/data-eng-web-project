@@ -1,24 +1,23 @@
 // Decide DEV/PROD
 let URL; // BackEnd
-if(window.location.hostname == 'localhost'){
+if (window.location.hostname == "localhost") {
   // local
-  URL = 'http://localhost:3000'; // falsk
+  URL = "https://data-eng-youtube-recomender.herokuapp.com"; // falsk
 } else {
   // production
-  URL = 'https://price-log-server.herokuapp.com'
+  URL = "https://data-eng-youtube-recomender.herokuapp.com";
 }
 
 const routes = {
   state: {
-    getVideos: URL+'/show-videos',
-    updateVideos: URL+'/update-db',
+    getVideos: URL + "/show-videos",
+    updateVideos: URL + "/update-db",
   },
   getters: {
     getRoutes(state) {
       return state;
-    }
-  }
-
+    },
+  },
 };
 
 export default { routes };

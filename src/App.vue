@@ -14,12 +14,8 @@
       <va-navbar-item>
         <div id="nav">
           <router-link to="/">Home</router-link> |
-          <router-link to="/data-engineering-listing"
-            >Data Engineering Book Listing</router-link
-          >
-          <router-link to="/data-eng-recomender"
-            >Data Engineering Book Listing</router-link
-          >
+          <router-link to="/book-listing"> Book Listing</router-link> |
+          <router-link to="/video-recomender">Video Recomender</router-link>
         </div>
       </va-navbar-item>
     </template>
@@ -34,7 +30,7 @@
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

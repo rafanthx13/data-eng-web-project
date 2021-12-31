@@ -1,24 +1,14 @@
-import http from './http'
+import http from './http';
 import store from '../store';
 
-let url = store.getters.getRoutes.url;
+let routes = store.getters.getRoutes;
 
 export default class {
-
-  static getVideosRecomend(){
-    return http.get(url.base);
+  static getVideosRecomend() {
+    return http.get(routes.getVideos);
   }
 
-  static getUpdateVideos(){
-      return 
+  static getUpdateVideos() {
+    return null;
   }
-
-  static delete(url_id){
-    return http.delete(url.base + '/' + url_id);
-  }
-
-  static getCities(){
-    return http.get(url.base)
-  }
-
 }

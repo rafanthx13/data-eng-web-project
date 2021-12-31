@@ -1,9 +1,7 @@
-import { createStore } from 'vuex'
+import { createStore } from 'vuex';
 
 import stores from './store.js';
 
 export default createStore({
-  
-  modules: stores
-  
-})
+  modules: stores,
+});
