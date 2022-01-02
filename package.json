@@ -8,7 +8,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "fix:lint": "npm run lint -- --fix && npx prettier --write \"src/**/*.{vue,js}\" "
+    "fix:lint": "npx eslint --fix  --ext .js,.vue src && npx prettier --write \"src/**/*.{vue,js}\" "
   },
   "dependencies": {
     "axios": "^0.24.0",

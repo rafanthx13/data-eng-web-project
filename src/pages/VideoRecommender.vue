@@ -1,30 +1,33 @@
 /* eslint-disable no-unused-vars */
 <template>
   <div>
-    <div class="va-table-responsive my-table">
-      <table class="va-table va-table--striped">
-        <thead>
-          <tr>
-            <th>Video Title</th>
-            <th>Score</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="video in rows" :key="video.id">
-            <td>
-              <a :href="'https://www.youtube.com/watch?v=' + video.video_link">
-                {{ video.video_title }}
-              </a>
-            </td>
-            <td>{{ video.score }}</td>
-            <!-- <td>{{ user.country }}</td> -->
-            <!-- <td>
+    <h1>Recomendação de vídeos sobre Engenharia de Dados</h1>
+    <va-inner-loading :loading="loading">
+      <div class="va-table-responsive my-table">
+        <table class="va-table va-table--striped">
+          <thead>
+            <tr>
+              <th>Video Title</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="video in rows" :key="video.id">
+              <td>
+                <a :href="'https://www.youtube.com/watch?v=' + video.video_link">
+                  {{ video.video_title }}
+                </a>
+              </td>
+              <td>{{ video.score }}</td>
+              <!-- <td>{{ user.country }}</td> -->
+              <!-- <td>
               <va-badge :text="user.status" :color="user.status" />
             </td> -->
-          </tr>
-        </tbody>
-      </table>
-    </div>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </va-inner-loading>
     <div v-if="!this.rows">
       <span>No Data</span>
     </div>
@@ -38,10 +41,12 @@ export default {
   data() {
     return {
       rows: [],
+      loading: false,
     };
   },
 
   created() {
+    this.loading = true;
     /* eslint-disable */
 
     /*
@@ -91,10 +96,12 @@ export default {
         // console.log('result', result)
         let list_videos = result.data.list_videos;
         this.rows = list_videos.map(convert_to_json);
+        this.loading = false
         // console.log(list_videos);
       })
       .catch(err => {
         console.error(err);
+        this.loading = false
         this.$vaToast.init({
           message: 'Error in Seach Videos',
           color: 'danger',

@@ -16,8 +16,8 @@ const routes = [
     component: BookListing,
   },
   {
-    path: '/video-recomender',
-    name: 'JobsDashBoard',
+    path: '/video-recommender',
+    name: 'VideoRecommender',
     component: VideoRecommender,
   },
   {

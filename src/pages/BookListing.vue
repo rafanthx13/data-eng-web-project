@@ -1,5 +1,6 @@
 <template>
   <div class="bg-gradient font-dm-sans">
+    <h1>Listagem de Livros sobre Engenharia de Dados</h1>
     <!-- Card -->
     <div class="layout">
       <div class="row gutter--md justify--space-around">

@@ -1,9 +1,10 @@
 <template>
   <div>
+    <h1>Google Data Studio</h1>
     <div class="dashboard">
       <iframe
-        width="600"
-        height="450"
+        width="700"
+        height="500"
         src="https://datastudio.google.com/embed/reporting/86d2fcd5-2058-4312-8993-9cd2e74240f0/page/2fJiC"
         frameborder="0"
         style="border: 0"
@@ -31,9 +32,7 @@ export default {
 </script>
 
 <style>
-.dashboard {
-}
-
-.word-cloud {
+iframe {
+  margin-top: 30px;
 }
 </style>

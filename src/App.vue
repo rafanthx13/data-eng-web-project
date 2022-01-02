@@ -11,7 +11,7 @@
         <div id="nav">
           <router-link to="/">Home</router-link> |
           <router-link to="/book-listing"> Book Listing</router-link> |
-          <router-link to="/video-recomender">Video Recomender</router-link> |
+          <router-link to="/video-recommender">Video Recomender</router-link> |
           <router-link to="/jobs-dashboard">Jobs DashBoard</router-link>
         </div>
       </va-navbar-item>
