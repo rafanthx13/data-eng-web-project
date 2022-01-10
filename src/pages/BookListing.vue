@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gradient font-dm-sans">
-    <h1>Listagem de Livros sobre Engenharia de Dados</h1>
+    <h1 class="pt-4">Listagem de Livros sobre Engenharia de Dados</h1>
     <!-- Card -->
     <div class="layout">
       <div class="row gutter--md justify--space-around">
@@ -10,8 +10,8 @@
           :key="book.title"
           style="
             margin: 20px;
-            max-width: 450px;
-            min-width: 450px;
+            max-width: 400px;
+            min-width: 400px;
             display: flex;
             flex-direction: column;
           "

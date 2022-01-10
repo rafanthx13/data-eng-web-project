@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Google Data Studio</h1>
+    <h1 class="pt-4">Google Data Studio</h1>
     <div class="dashboard">
       <iframe
         width="700"

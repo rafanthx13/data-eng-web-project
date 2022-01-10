@@ -1,6 +1,6 @@
 {
-  "name": "book-listing",
-  "version": "0.1.0",
+  "name": "data-eng-web-site",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",

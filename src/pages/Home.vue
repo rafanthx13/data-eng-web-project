@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="mb-5">
-      <h1 class="display-1">DataEngineering Web Project</h1>
+      <h1 class="display-1 pt-4">DataEngineering Web Project</h1>
       <br />
       <p>Projeto para estudar Engenharia de dados</p>
       <p>Lista de Livros</p>
