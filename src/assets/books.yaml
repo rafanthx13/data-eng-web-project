@@ -60,15 +60,18 @@ books:
     short_comment: Há questionários para praticar para a prova
     comment: OReily
 
-  - title: Machine Learning Engineering
+  - title: 97 Things Every Cloud Engineer Should Know
     subtitle: 
-    image: machine-learning-engineering.jpg
+    image: 97-things-every-cloud-engineer-should-know.jpg
     autors: ["Machine Learning Engineering"]
     year: 2020
-    pages: 310
-    tags: ["Machine Learning Engineering"] 
-    short_comment: Há questionários para praticar para a prova
+    pages: 292
+    tags: ["Cloud"] 
+    short_comment: 
     comment: OReily
+    link_download: https://www.redhat.com/rhdc/managed-files/cl-97-things-cloud-engineers-know-e-book-oreilly-f28602-202105-en.pdf
+    link_drive_private: https://drive.google.com/file/d/16eHXyQzolKxTuWztkXnzr1xQ8XFQ9wbb/view?usp=sharing
+    link_buy: https://www.amazon.com.br/Things-Every-Cloud-Engineer-Should/dp/1492076732
 
 
 
