@@ -1,0 +1,45 @@
+books:
+
+   - title: Practical Statistics for Data Scientists
+    subtitle: 50 Essential Concepts
+    image: practical-statistics-for-data-scientists.jpg
+    autors: ["Peter Bruce", "Andrew Bruce"]
+    year: 2020
+    pages: 592
+    tags: ["Statistics"] 
+    short_comment: 
+    comment: OReily
+    link_download: 
+    link_drive_private: 
+    link_buy: https://www.amazon.com.br/Practical-Statistics-Data-Scientists-2e/dp/149207294X
+
+    - title: Python Data Science Handbook
+    subtitle:  Essential Tools for Working with Data
+    image: practical-statistics-for-data-scientists.jpg
+    autors: ["Jake VanderPlas"]
+    year: 2016
+    pages: 548
+    tags: ["Statistics"] 
+    short_comment: 
+    comment: OReily
+    link_download: 
+    link_drive_private: 
+    link_buy: https://www.amazon.com.br/Python-Data-Science-Handbook-Vanderplas/dp/1491912057
+
+ - title: Hands-On Machine Learning with Scikit-Learn and TensorFlow
+    subtitle:  
+    image: hands-on-machine-learning-with-scikit-learn-and-tensor-flow.jpg
+    autors: ["Aurélien Géron"]
+    year: 2016
+    pages: 548
+    tags: ["Statistics"] 
+    short_comment: 
+    comment: OReily
+    link_download: 
+    link_drive_private: 
+    link_buy: https://www.amazon.com.br/Python-Data-Science-Handbook-Vanderplas/dp/1491912057
+
+
+
+
+
